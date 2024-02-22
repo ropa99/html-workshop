@@ -3,16 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/cssWorkShopStyle.css">
     <title>Marketplace App</title>
 </head>
 <body>
-    <h1>Marketplace App</h1>
-    <p>Explore and shop from our marketplace</p>
+    <header>
+        <h1>Marketplace App</h1>
+        <p>Explore and shop from our marketplace</p>
+        <br>
+    </header>
 </body>
 <main>
-    <h2>Featured Products</h2>
+    
     <section id="products">
-        <div class="products">
+        <h2>Featured Products</h2>
+        <div class="product">
             <h3>Orange</h3>
             <img src="/pictures/Orange.png" alt="One Orange" width="600" height="400">
             <p>Fresh orange from Spain</p>
@@ -23,29 +28,33 @@
             </ul>
             <div class="email-field">
                 <label for="email:">Email:</label>
-                <input type="email"><br>
-                <button >View Details</button>
+                info@shop.com                
             </div>
+                <button id="bView">View Details</button>
         </div>
-        <div class="products">
+        
+        <div class="product">
             <h3>Apple</h3>
             <img src="/pictures/Apple.png" alt="One Apple" width="600" height="400">
             <p>Fresh apple from Spain</p>
+            <ul>
                 <li>Price: $1.50</li>
                 <li>Category: Fruit</li>
                 <li>Rating: 4/5</li>
             </ul>
             <div class="email-field">
                 <label for="email:">Email:</label>
-                <input type="email"><br>
-                <button>View Details</button>
+                info@shop.com                
             </div>
+                <button id="bView">View Details</button>
+            
         </div>
     </section>
 </main>
-<footer>
-    <div class="footer"></div>
-    <p> &copy; LEXICON Växjö</p>
 
-</footer>
+    <div class="footer">
+        <p> &copy; LEXICON Växjö</p>
+    </div>
+
+</body>
 </html>
